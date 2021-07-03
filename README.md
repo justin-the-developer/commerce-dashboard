@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+# Dashboard for Commerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![screen_shot](src/images/dashboard_screen_shot.png)
 
-## Available Scripts
+### How to play?
 
-In the project directory, you can run:
+- Click whatever sandwiches you want.
+- Add to Order Once you selected the sandwiches.
+- Feel free to check product, quantity and total amount.
+- Click confirm button to add to the Delivery list.
+- Keep track of your order to be picked up.
+- Keep your eyes on your inventory, once your ingredients is out of stock, the menu will go off.
 
-### `npm start`
+### Test
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Tested using React Testing library
+- Components are tested with rendering tests, and function tests with mocking functions.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Semantic Markup
 
-### `npm test`
+- I used section tags to separate modules.
+- Set all the tags for the title to be h1s.
+- Separate sections in the module using div tags.
+- Used table tags to generate receipt-looking UI(user interface).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Accessibility
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Contrast sections with extraordinary colours when it comes to emphasis context (Inventory alert, Picked up alert, etc)
+- Did not use !important CSS rules for those who have colour disabilities.
+- Used Label for checkboxes.
+- Implemented aria-label to all the action tags.

@@ -1,0 +1,160 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+body {
+    background: #eaedf2;
+}
+
+.small {
+    font-size: 10px;
+    text-indent: 0px;
+    font-weight: 200;
+}
+
+.medium {
+    font-size: 15px;
+}
+
+.big {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.red {
+    background: tomato;
+    color: #fff;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.3);
+    box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.3);
+}
+
+.module {
+    display: inline-block;
+    width: 50%;
+    margin: 20px 0;
+    background: #fff;
+    padding: 20px;
+    border-radius: 25px;
+    min-width: 450px;
+}
+
+.active {
+    background: #0057f9;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.disabled {
+    background: #eff0f2;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.button {
+    background: #282c31;
+    opacity: 0.6;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.button-active {
+    opacity: 1;
+}
+
+.divider-container {
+    display: flex;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: center;
+    align-content: center;
+    min-width: 450px;
+}
+
+.divider-container h1 {
+    z-index: 999;
+    background: #eaedf2;
+    padding: 0 10px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    border-bottom: 1px #b1b1b1 solid;
+}
+
+td,
+th {
+    text-align: right;
+    padding: 0.4em;
+    height: 25px;
+}
+
+tr th:first-child,
+tr td:first-child {
+    text-align: left;
+    width: 90%;
+}
+tfoot tr td {
+    font-weight: bold;
+    border-top: 1px #b1b1b1 dashed;
+    border-bottom: 1px #b1b1b1 solid;
+}

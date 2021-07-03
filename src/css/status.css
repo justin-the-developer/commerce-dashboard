@@ -1,0 +1,62 @@
+.inventory-table tbody tr {
+    border-bottom: 1px solid #eff1f3;
+}
+
+.order-list-conatiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-list {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.orderlist-table tr th:first-child,
+.orderlist-table tr td:first-child {
+    text-align: left;
+    width: inherit;
+}
+
+.action-button {
+    margin-top: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.action-button:hover {
+    opacity: 0.8;
+}
+
+.action-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.button-close {
+    background: #1548a7;
+}
+
+.button-open {
+    background: #cf5135;
+}
+
+.title-area {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.order-close {
+    background: #ffede9;
+    color: #f48782;
+    font-weight: 600;
+}
+
+.order-open {
+    background: #aac8fe;
+    color: #1c4ca5;
+    font-weight: 600;
+}
